@@ -1,0 +1,35 @@
+CREATE DATABASE ecommerce;
+
+USE ecommerce_local;
+
+CREATE TABLE produtos (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    nome VARCHAR(100) NOT NULL,
+    preco DECIMAL(10,2) NOT NULL,
+    descricao TEXT NOT NULL
+);
+
+INSERT INTO produtos (nome, preco, descricao) VALUES
+('Pioneer CDJ 3000', 27984.00, 'Player profissional da Pioneer com tela touchscreen avançada e jog wheel precisa, ideal para DJs exigentes.'),
+
+('Monitores Adam T7V', 5669.00, 'Monitores de áudio com som detalhado e potente, perfeitos para mixagem e produção musical.'),
+
+('Interface Focusrite', 2297.00, 'Interface de áudio compacta, com pré-amplificadores renomados para gravações profissionais.'),
+
+('Mixer Pioneer DJM-900NXS2', 26000.00, 'Mesa de mixagem com efeitos, conectividade avançada e som cristalino.'),
+
+('Sintetizador Nord Lead 4', 7000.00, 'Sintetizador versátil com timbres poderosos e interface intuitiva.'),
+
+('Cabo P10 XLR', 57.00, 'Cabo resistente e confiável para conexões de áudio profissionais.'),
+
+('Licença Ableton Live', 3977.64, 'Software completo para produção musical, gravação, edição e performance.'),
+
+('Controladora Pioneer XDJ-XZ', 21999.00, 'Controladora all-in-one com recursos avançados para DJs profissionais.'),
+
+('Audio-Technica ATH-M50x', 1173.54, 'Fone de estúdio com áudio balanceado e conforto para longas sessões.'),
+
+('Microfone condensador AT2020', 622.67, 'Microfone com captação clara e precisa para vozes e instrumentos.'),
+
+('Teclado MPK Mini MK2', 690.32, 'Controlador MIDI portátil com pads e teclas para produção musical.'),
+
+('Mixer Behringer Xenyx 802S', 954.00, 'Mesa compacta com 8 canais e qualidade sonora profissional.');
