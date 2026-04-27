@@ -1,2 +1,17 @@
 # Projeto-E-commerce
-Projeto ecommerce de aparelhos eletronicos para dj/festa eletronica para aula de desenvolvimento web com HTML, PHP, Css, Javascript. Vamos desenvolver um site basico mas com todas as caracteristicas
+
+This project is a simple e-commerce website inspired by platforms like Amazon.
+
+## Technologies
+- HTML
+- CSS
+- JavaScript
+- Php
+
+## Features
+- Product listing
+- Responsive layout
+- User interface simulation
+
+## Objective
+Practice web development and programming fundamentals.
